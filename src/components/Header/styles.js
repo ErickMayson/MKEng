@@ -12,5 +12,6 @@ export const Container = styled.header`
     width: 100%;
     max-width: 200px;
     max-height: 200px;
+    cursor: pointer;
   }
 `;

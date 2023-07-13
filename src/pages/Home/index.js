@@ -1,10 +1,16 @@
+import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
-import { Container } from './styles';
+import About from '../About';
+import { HeaderContainer, PageContainer } from './styles';
 
 export default function Home() {
   return (
-    <Container>
-      <Navbar />
-    </Container>
+    <PageContainer>
+      <HeaderContainer>
+        <Header />
+        <Navbar />
+      </HeaderContainer>
+      <About />
+    </PageContainer>
   );
 }

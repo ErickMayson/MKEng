@@ -15,6 +15,12 @@ export const NavMenu = styled.div`
     color: white;
     font-size: 1.1rem;
     font-weight: 600;
+
+    &:hover {
+      color: rgba(0, 0, 0, 1);
+      transition: 0.5s;
+
+    }
   }
 
   .primary-button {
@@ -26,10 +32,13 @@ export const NavMenu = styled.div`
     font-size: 16px;
     cursor: pointer;
     font-weight: 600;
-    transition: 0.2s;
+    transition: 0.4 s;
+    max-width: 300px;
 
     &:hover {
-      background-color: rgb(234, 234, 234);
+      background-color: rgb(0, 0, 0, 1);
+      color: #fff;
+      transition: 0.4s;
     }
 
     .navbar-cart-icon {

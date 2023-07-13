@@ -5,7 +5,9 @@ import logo from '../../assets/images/MKlight.svg';
 export default function Header() {
   return (
     <Container>
-      <img src={logo} alt="MyContacts" />
+      <a href="/">
+        <img src={logo} alt="MyContacts" />
+      </a>
     </Container>
   );
 }
